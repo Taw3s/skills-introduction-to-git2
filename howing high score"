@@ -1,0 +1,21 @@
+[1mdiff --git a/src/index.html b/src/index.html[m
+[1mindex c89edb8..c63e025 100644[m
+[1m--- a/src/index.html[m
+[1m+++ b/src/index.html[m
+[36m@@ -17,10 +17,12 @@[m
+       </div>[m
+ [m
+       <div class="side-panel">[m
+[33m-        <div class="info-section">[m
+[33m-          <h3>Score</h3>[m
+[33m-          <div class="score" id="score">0</div>[m
+[33m-          <div class="status" id="status">Playing...</div>[m
+[34m+[m[34m       <div class="info-section">[m
+[34m+[m[34m        <h3>Current Score</h3>[m
+[34m+[m[34m        <div class="score" id="score">0</div>[m
+[34m+[m[34m        <h3>High Score</h3>[m
+[34m+[m[34m        <div class="high-score" id="high-score">0</div>[m
+[34m+[m[34m        </div>[m
+         </div>[m
+ [m
+         <div class="info-section">[m
